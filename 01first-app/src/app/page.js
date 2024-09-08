@@ -10,12 +10,12 @@ export default function Home() {
 		<main className=" min-h-[100vh]  text-center bg-slate-700 text-white pt-[10px]">
 			<div>
 				<div className="text-center mx-auto text-[20px] font-semibold">
-					Hey Duniya!!
+					Welcome to NextJs Duniya!!
 				</div>
-				<User name="Harsh Bhardwaj!"></User>
+				{/* <User name="Harsh Bhardwaj!"></User>
 				<User name="RCB!"></User>
 				<User name="Yuvraj Singh!"></User>
-				<User name="Virate Kohli!"></User>
+				<User name="Virate Kohli!"></User> */}
 			</div>
 
 			{/* Learning about events */}
@@ -23,8 +23,8 @@ export default function Home() {
 			<Event></Event>
 
 			<div className="mt-5 -mb-5">Routing:</div>
-
 			<Route></Route>
+			
 			<div className="mt-12 -mb-8">Linking:</div>
 			<Linking></Linking>
 
