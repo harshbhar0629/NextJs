@@ -1,5 +1,6 @@
 /** @format */
-"use client"
+"use client";
+import { Router, Route } from "next/router";
 import Event from "./components/Event";
 
 export default function Home() {
@@ -17,6 +18,22 @@ export default function Home() {
 
 			{/* Learning about events */}
 			<Event></Event>
+			<div className="flex  gap-2 justify-center items-center mt-10">
+				<button>
+					<a
+						href="/details"
+						className=" cursor-pointer px-5 py-4 border-[2px] hover:bg-slate-500 hover:text-white border-slate-300">
+						Details
+					</a>
+				</button>
+				<button>
+					<a
+						href="/about"
+						className=" cursor-pointer px-5 py-4 border-[2px] border-slate-300 hover:bg-slate-500 hover:text-white">
+						About
+					</a>
+				</button>
+			</div>
 		</main>
 	);
 }
