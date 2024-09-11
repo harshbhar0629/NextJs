@@ -1,3 +1,5 @@
+/** @format */
+
 import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link";
@@ -23,6 +25,23 @@ export default function RootLayout({ children }) {
 		<html lang="en">
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+				<ul className="flex flex-row justify-end gap-12 pr-[100px] text-xl bg-slate-900 text-white font-semibold py-4">
+					<li className="hover:text-slate-300">
+						<Link href={"/"}>Home</Link>
+					</li>
+					<li className="hover:text-slate-300">
+						<Link href={"/about"}>About</Link>
+					</li>
+					<li className="hover:text-slate-300">
+						<Link href={"/details"}>Details</Link>
+					</li>
+					<li className="hover:text-slate-300">
+						<Link href={"/login"}>Login</Link>
+					</li>
+					<li className="hover:text-slate-300">
+						<Link href={"/signup"}>Signup</Link>
+					</li>
+				</ul>
 				{children}
 			</body>
 		</html>

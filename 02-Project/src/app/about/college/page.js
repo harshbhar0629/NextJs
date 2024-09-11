@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const College = () => {
 	return (
-		<div className="h-[100vh]  mx-auto text-center my-auto">
+		<div className="h-[100vh]  mx-auto text-center text-white my-auto bg-slate-600">
 			<h2 className="font-semibold text-2xl pt-20">This is a College Page.</h2>
 			<br></br>
 			<Link
