@@ -41,9 +41,6 @@ export default function RootLayout({ children }) {
 					<li className="hover:text-slate-300">
 						<Link href={"/signup"}>Signup</Link>
 					</li>
-					<li className="hover:text-slate-300">
-						<Link href={"/study"}>Study</Link>
-					</li>
 				</ul>
 				{children}
 			</body>
